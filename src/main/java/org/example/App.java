@@ -20,7 +20,7 @@ public class App
         String adverb = scnr.nextLine();
 
         String sentence;
-        sentence = String.format("Do you %s your %s %s %s? That's Hilarious", verb, adjective, noun, adverb);
+        sentence = String.format("Do you %s your %s %s %s? That's Hilarious!", verb, adjective, noun, adverb);
         //verb, adjective, noun, adverb
         System.out.println(sentence.toString());
 
